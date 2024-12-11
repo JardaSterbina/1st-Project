@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+img {
+  width: 50%;
+}
+
+/* Navigation section */
+.navigation {
+  background-color: #33292a;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.navigation-list {
+  display: none;
+}
+
+.hamburger-menu-icon {
+  width: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .hamburger-menu-icon {
+    display: none;
+  }
+  .navigation-list {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  .navigation-item a {
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 0px;
+  }
+}
+
+/* hero section */
+.hero {
+  background-image: url(images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+  position: relative;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.your-assistant {
+}
+
+h1 {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+/* About Us section */
+.About-us {
+}
+
+.about-us-wrapper {
+}
+
+.about-us-text {
+  width: 50%;
+}
+
+.anneliese-phillips {
+}
+
+.anneliese-phillips-image {
+  width: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .about-us-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+  }
+  .about-us-text {
+  }
+  .anneliese-phillips {
+  }
+  .anneliese-phillips-image {
+  }
+}
+
+/*  What we do section*/
+.what-we-do {
+}
+
+.what-we-do-wrapper {
+}
+
+.what-we-do-text {
+}
+
+.what-we-do-icons {
+}
+
+.hiking-icon {
+}
+
+.cycling-icon {
+}
+
+.surfing-icon {
+}
+
+.car-trips-icon {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .what-we-do-wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+/*Our trips section  */
+.our-trips {
+}
+
+.our-trips-wrapper {
+}
+
+.pur-trips-images {
+}
+
+.s-english-image {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .our-trips-wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+/* Where to go section */
+.where-to-go {
+}
+
+.where-to-go-wrapper {
+}
+
+.where-to-go-left {
+}
+
+.where-to-go-right {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .where-to-go-wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+/* Reviews section */
+.reviews {
+}
+
+.reviews-wrapper {
+}
+
+.reviews-text {
+}
+
+.reviewers {
+}
+
+.rev-b-norton {
+}
+
+.rev-f-kinney {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .reviews-wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+/* Gallery section */
+.gallery {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+/* Cobtact section */
+.contact {
+}
+
+.contact-wrapper {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
